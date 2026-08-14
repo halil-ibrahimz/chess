@@ -1,0 +1,2 @@
+export const CAREER_POSTER_WIDTH = 1080;
+export const CAREER_POSTER_HEIGHT = 1350;

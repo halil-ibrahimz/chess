@@ -1,0 +1,33 @@
+{
+  "name": "satranc-mezarligi-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chess.com oyunlarindan kaybedilen taslari sayan teknik prototip",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test --test-isolation=none",
+    "test:browser:cors": "node scripts/browser-cors-probe.mjs",
+    "test:browser:live": "node scripts/browser-live-scan.mjs",
+    "test:browser:result": "node scripts/browser-result-visual.mjs",
+    "test:browser:poster": "node scripts/browser-career-poster.mjs",
+    "audit:history": "node scripts/audit-history-losses.mjs"
+  },
+  "dependencies": {
+    "chess.js": "1.4.0",
+    "modern-screenshot": "4.7.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.5",
+    "playwright": "^1.62.1",
+    "vite": "^8.2.0"
+  }
+}

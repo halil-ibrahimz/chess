@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "description": "5.107 maçlık önceki web ölçümü ile 5.109 maçlık bağımsız canlı denetim arasındaki iki yeni oyunun kontrolü",
+  "previousSnapshot": {
+    "latestGameEndedAt": "2026-08-05T17:56:16.000Z",
+    "games": 5107,
+    "losses": {
+      "total": 37910,
+      "pawn": 16097,
+      "knight": 8056,
+      "bishop": 6908,
+      "rook": 4405,
+      "queen": 2444
+    }
+  },
+  "newGames": [
+    {
+      "url": "https://www.chess.com/game/live/172622065362",
+      "endedAt": "2026-08-06T18:04:31.000Z",
+      "playerColor": "white",
+      "losses": {
+        "total": 7,
+        "pawn": 3,
+        "knight": 1,
+        "bishop": 2,
+        "rook": 1,
+        "queen": 0
+      },
+      "methodsAgree": true
+    },
+    {
+      "url": "https://www.chess.com/game/live/172622656328",
+      "endedAt": "2026-08-06T18:19:27.000Z",
+      "playerColor": "white",
+      "losses": {
+        "total": 6,
+        "pawn": 3,
+        "knight": 1,
+        "bishop": 1,
+        "rook": 1,
+        "queen": 0
+      },
+      "methodsAgree": true
+    }
+  ],
+  "newGamesCombinedLosses": {
+    "total": 13,
+    "pawn": 6,
+    "knight": 2,
+    "bishop": 3,
+    "rook": 2,
+    "queen": 0
+  },
+  "currentAudit": {
+    "games": 5109,
+    "losses": {
+      "total": 37923,
+      "pawn": 16103,
+      "knight": 8058,
+      "bishop": 6911,
+      "rook": 4407,
+      "queen": 2444
+    }
+  },
+  "previousSnapshotReproducedBySubtraction": true
+}

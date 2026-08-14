@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "auditMethod": "piece-conservation-v1",
+  "referenceMethod": "captured-move-events-v1",
+  "generatedAt": "2026-08-06T18:43:05.662Z",
+  "requestedUsername": "Hiy-Z",
+  "username": "hiy-z",
+  "corpusFingerprintSha256": "f68dc7815d191e269a2da816594ec72dc9ce25dbbde7edac27142b586b055bcf",
+  "archives": {
+    "found": 23,
+    "processed": 23,
+    "first": "2022/11",
+    "last": "2026/08"
+  },
+  "records": {
+    "found": 5109,
+    "unique": 5109,
+    "duplicatesSkipped": 0,
+    "identityConflicts": 0,
+    "standard": 5109,
+    "nonStandardSkipped": 0
+  },
+  "comparison": {
+    "audited": 5109,
+    "matching": 5109,
+    "mismatching": 0,
+    "notComparable": 0,
+    "referenceAnalyzed": 5109,
+    "conservationAnalyzed": 5109
+  },
+  "totals": {
+    "reference": {
+      "total": 37923,
+      "pawn": 16103,
+      "knight": 8058,
+      "bishop": 6911,
+      "rook": 4407,
+      "queen": 2444
+    },
+    "conservation": {
+      "total": 37923,
+      "pawn": 16103,
+      "knight": 8058,
+      "bishop": 6911,
+      "rook": 4407,
+      "queen": 2444
+    },
+    "equalByPiece": {
+      "total": true,
+      "pawn": true,
+      "knight": true,
+      "bishop": true,
+      "rook": true,
+      "queen": true
+    },
+    "allEqual": true
+  },
+  "verified": true,
+  "mismatches": [],
+  "notComparableByReason": {},
+  "notComparableGames": [],
+  "identityConflicts": [],
+  "sample": {
+    "strategy": "archive-strata-seeded-v1",
+    "seed": "satranc-mezarligi-conservation-audit-v1",
+    "requested": 20,
+    "eligibleCandidates": 5109,
+    "actual": 20,
+    "games": [
+      {
+        "identity": "url:https://www.chess.com/game/live/63125944339",
+        "url": "https://www.chess.com/game/live/63125944339",
+        "archive": "2022/11",
+        "endedAt": "2022-11-25T14:34:47.000Z",
+        "date": "2022-11-25",
+        "playerColor": "black",
+        "losses": {
+          "total": 7,
+          "pawn": 3,
+          "knight": 2,
+          "bishop": 1,
+          "rook": 0,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/63757217127",
+        "url": "https://www.chess.com/game/live/63757217127",
+        "archive": "2022/12",
+        "endedAt": "2022-12-02T21:58:06.000Z",
+        "date": "2022-12-02",
+        "playerColor": "white",
+        "losses": {
+          "total": 7,
+          "pawn": 2,
+          "knight": 2,
+          "bishop": 2,
+          "rook": 0,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/66346855467",
+        "url": "https://www.chess.com/game/live/66346855467",
+        "archive": "2023/01",
+        "endedAt": "2023-01-01T21:17:05.000Z",
+        "date": "2023-01-01",
+        "playerColor": "white",
+        "losses": {
+          "total": 13,
+          "pawn": 6,
+          "knight": 2,
+          "bishop": 2,
+          "rook": 2,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/71183046835",
+        "url": "https://www.chess.com/game/live/71183046835",
+        "archive": "2023/02",
+        "endedAt": "2023-02-26T20:43:52.000Z",
+        "date": "2023-02-26",
+        "playerColor": "black",
+        "losses": {
+          "total": 7,
+          "pawn": 1,
+          "knight": 2,
+          "bishop": 1,
+          "rook": 2,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/71607342757",
+        "url": "https://www.chess.com/game/live/71607342757",
+        "archive": "2023/03",
+        "endedAt": "2023-03-03T18:33:04.000Z",
+        "date": "2023-03-03",
+        "playerColor": "white",
+        "losses": {
+          "total": 11,
+          "pawn": 6,
+          "knight": 2,
+          "bishop": 2,
+          "rook": 1,
+          "queen": 0
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/76102262611",
+        "url": "https://www.chess.com/game/live/76102262611",
+        "archive": "2023/04",
+        "endedAt": "2023-04-24T19:06:13.000Z",
+        "date": "2023-04-24",
+        "playerColor": "black",
+        "losses": {
+          "total": 2,
+          "pawn": 1,
+          "knight": 0,
+          "bishop": 1,
+          "rook": 0,
+          "queen": 0
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/85919464385",
+        "url": "https://www.chess.com/game/live/85919464385",
+        "archive": "2023/08",
+        "endedAt": "2023-08-16T10:12:51.000Z",
+        "date": "2023-08-16",
+        "playerColor": "white",
+        "losses": {
+          "total": 6,
+          "pawn": 2,
+          "knight": 2,
+          "bishop": 1,
+          "rook": 0,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/91383629867",
+        "url": "https://www.chess.com/game/live/91383629867",
+        "archive": "2023/10",
+        "endedAt": "2023-10-18T15:58:28.000Z",
+        "date": "2023-10-18",
+        "playerColor": "black",
+        "losses": {
+          "total": 0,
+          "pawn": 0,
+          "knight": 0,
+          "bishop": 0,
+          "rook": 0,
+          "queen": 0
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/97801265701",
+        "url": "https://www.chess.com/game/live/97801265701",
+        "archive": "2023/12",
+        "endedAt": "2023-12-31T22:41:10.000Z",
+        "date": "2023-12-31",
+        "playerColor": "white",
+        "losses": {
+          "total": 8,
+          "pawn": 3,
+          "knight": 2,
+          "bishop": 2,
+          "rook": 1,
+          "queen": 0
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/106860761627",
+        "url": "https://www.chess.com/game/live/106860761627",
+        "archive": "2024/04",
+        "endedAt": "2024-04-14T19:15:00.000Z",
+        "date": "2024-04-14",
+        "playerColor": "white",
+        "losses": {
+          "total": 11,
+          "pawn": 4,
+          "knight": 2,
+          "bishop": 2,
+          "rook": 2,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/119903424725",
+        "url": "https://www.chess.com/game/live/119903424725",
+        "archive": "2024/09",
+        "endedAt": "2024-09-12T18:09:08.000Z",
+        "date": "2024-09-12",
+        "playerColor": "white",
+        "losses": {
+          "total": 12,
+          "pawn": 6,
+          "knight": 2,
+          "bishop": 2,
+          "rook": 1,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/122129399371",
+        "url": "https://www.chess.com/game/live/122129399371",
+        "archive": "2024/10",
+        "endedAt": "2024-10-08T12:30:33.000Z",
+        "date": "2024-10-08",
+        "playerColor": "white",
+        "losses": {
+          "total": 8,
+          "pawn": 4,
+          "knight": 1,
+          "bishop": 2,
+          "rook": 0,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/128813004371",
+        "url": "https://www.chess.com/game/live/128813004371",
+        "archive": "2024/12",
+        "endedAt": "2024-12-24T21:02:57.000Z",
+        "date": "2024-12-24",
+        "playerColor": "white",
+        "losses": {
+          "total": 6,
+          "pawn": 3,
+          "knight": 1,
+          "bishop": 1,
+          "rook": 1,
+          "queen": 0
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/137629984886",
+        "url": "https://www.chess.com/game/live/137629984886",
+        "archive": "2025/04",
+        "endedAt": "2025-04-21T15:45:01.000Z",
+        "date": "2025-04-21",
+        "playerColor": "black",
+        "losses": {
+          "total": 7,
+          "pawn": 3,
+          "knight": 1,
+          "bishop": 2,
+          "rook": 1,
+          "queen": 0
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/141584984652",
+        "url": "https://www.chess.com/game/live/141584984652",
+        "archive": "2025/08",
+        "endedAt": "2025-08-07T08:04:02.000Z",
+        "date": "2025-08-07",
+        "playerColor": "white",
+        "losses": {
+          "total": 12,
+          "pawn": 5,
+          "knight": 2,
+          "bishop": 2,
+          "rook": 2,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/144475567420",
+        "url": "https://www.chess.com/game/live/144475567420",
+        "archive": "2025/10",
+        "endedAt": "2025-10-19T12:27:51.000Z",
+        "date": "2025-10-19",
+        "playerColor": "white",
+        "losses": {
+          "total": 4,
+          "pawn": 3,
+          "knight": 1,
+          "bishop": 0,
+          "rook": 0,
+          "queen": 0
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/167987968816",
+        "url": "https://www.chess.com/game/live/167987968816",
+        "archive": "2026/04",
+        "endedAt": "2026-04-29T11:48:09.000Z",
+        "date": "2026-04-29",
+        "playerColor": "white",
+        "losses": {
+          "total": 3,
+          "pawn": 1,
+          "knight": 1,
+          "bishop": 1,
+          "rook": 0,
+          "queen": 0
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/168543202614",
+        "url": "https://www.chess.com/game/live/168543202614",
+        "archive": "2026/05",
+        "endedAt": "2026-05-11T11:07:14.000Z",
+        "date": "2026-05-11",
+        "playerColor": "black",
+        "losses": {
+          "total": 11,
+          "pawn": 4,
+          "knight": 2,
+          "bishop": 2,
+          "rook": 2,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/169607112934",
+        "url": "https://www.chess.com/game/live/169607112934",
+        "archive": "2026/06",
+        "endedAt": "2026-06-02T15:37:32.000Z",
+        "date": "2026-06-02",
+        "playerColor": "white",
+        "losses": {
+          "total": 7,
+          "pawn": 3,
+          "knight": 2,
+          "bishop": 1,
+          "rook": 0,
+          "queen": 1
+        },
+        "methodsAgree": true
+      },
+      {
+        "identity": "url:https://www.chess.com/game/live/172480488396",
+        "url": "https://www.chess.com/game/live/172480488396",
+        "archive": "2026/08",
+        "endedAt": "2026-08-03T17:17:48.000Z",
+        "date": "2026-08-03",
+        "playerColor": "white",
+        "losses": {
+          "total": 3,
+          "pawn": 2,
+          "knight": 1,
+          "bishop": 0,
+          "rook": 0,
+          "queen": 0
+        },
+        "methodsAgree": true
+      }
+    ]
+  },
+  "performance": {
+    "durationMs": 81976.61,
+    "durationSeconds": 81.98
+  },
+  "limitations": [
+    "İki yöntem aynı chess.js PGN ayrıştırıcısını kullanır; ortak bir ayrıştırıcı hatasını bağımsız yakalayamaz.",
+    "Sabit tohum aynı sabit veri kümesinde aynı örneği üretir; Chess.com geçmişi değişirse yeni bir corpus farklı örnek verebilir."
+  ]
+}
