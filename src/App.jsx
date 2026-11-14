@@ -521,6 +521,11 @@ function ResultView({ result, source, savedAt, onBack, onRescan, sectionRef }) {
     careerRecords: result.careerRecords ?? {},
   };
 
+  function openPoster(event) {
+    posterButtonRef.current = event.currentTarget;
+    setIsPosterOpen(true);
+  }
+
   function closePoster() {
     setIsPosterOpen(false);
     requestAnimationFrame(() => posterButtonRef.current?.focus({ preventScroll: true }));
@@ -537,9 +542,18 @@ function ResultView({ result, source, savedAt, onBack, onRescan, sectionRef }) {
         <button className="back-link" type="button" onClick={onBack}>
           <span aria-hidden="true">←</span> Geri dön
         </button>
-        <button className="secondary-button" type="button" onClick={onRescan}>
-          Yeniden tara
-        </button>
+        <div className="result-toolbar__actions">
+          <button
+            className="primary-button result-toolbar__poster-btn"
+            type="button"
+            onClick={openPoster}
+          >
+            Kariyer kartı
+          </button>
+          <button className="secondary-button" type="button" onClick={onRescan}>
+            Yeniden tara
+          </button>
+        </div>
       </nav>
 
       <header className="result-hero">
@@ -628,11 +642,18 @@ function ResultView({ result, source, savedAt, onBack, onRescan, sectionRef }) {
       <CareerRecordsSection careerRecords={result.careerRecords} onRescan={onRescan} />
 
       <div className="career-poster-cta">
+        <div className="career-poster-cta__copy">
+          <p className="career-poster-cta__kicker">KARİYER POSTERİ</p>
+          <h3>Ordunun hikâyesini poster olarak sakla</h3>
+          <p>
+            Maç toplamların, taş kayıpların ve unutulmayan üç savaşınla 1080×1350 PNG
+            posterini tek tıkla indir.
+          </p>
+        </div>
         <button
-          ref={posterButtonRef}
           className="primary-button"
           type="button"
-          onClick={() => setIsPosterOpen(true)}
+          onClick={openPoster}
         >
           Kariyer kartını hazırla
         </button>

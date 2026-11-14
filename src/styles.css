@@ -400,8 +400,22 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
   margin-bottom: 0.9rem;
+}
+
+.result-toolbar__actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.6rem;
+}
+
+.result-toolbar__poster-btn {
+  padding: 0.68rem 1.05rem;
+  font-size: 0.92rem;
 }
 
 .back-link {
@@ -1101,8 +1115,43 @@ input {
 
 .career-poster-cta {
   display: flex;
-  justify-content: center;
-  margin-top: clamp(1.5rem, 4vw, 2.5rem);
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.25rem 2rem;
+  margin-top: clamp(1.75rem, 4vw, 2.75rem);
+  padding: clamp(1.25rem, 3vw, 1.75rem) clamp(1.25rem, 3.5vw, 2rem);
+  border: 1px solid rgba(48, 53, 50, 0.2);
+  border-radius: 1.15rem;
+  background:
+    linear-gradient(135deg, rgba(216, 220, 203, 0.42), rgba(255, 248, 232, 0.92));
+  box-shadow: 0 0.75rem 2rem rgba(48, 53, 50, 0.08);
+}
+
+.career-poster-cta__copy {
+  flex: 1 1 20rem;
+}
+
+.career-poster-cta__kicker {
+  margin: 0 0 0.35rem;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: var(--sage-dark);
+}
+
+.career-poster-cta__copy h3 {
+  margin: 0 0 0.35rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  color: var(--ink);
+}
+
+.career-poster-cta__copy p:last-child {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.5;
+  color: var(--ink-soft);
 }
 
 .career-poster-dialog {
