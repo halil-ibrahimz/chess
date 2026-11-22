@@ -1,9 +1,8 @@
-# Düşen Taşlar — web ve CLI prototipi
+# ♟️ Düşen Taşlar — Chess.com Kariyer Analizi
 
-Bu prototip, bir Chess.com kullanıcısının herkese açık maç geçmişini alır ve
-oyunlarda yakalanan kendi taşlarını sayar. Aynı sayım çekirdeği hem Node.js CLI
-hem de tarayıcı tarafından kullanılır. Şimdilik final mezarlık görseli,
-animasyon, Stockfish, üyelik, veri tabanı veya sunucu tarafı işlem yoktur.
+[![Canlı Demo](https://img.shields.io/badge/🌐_Canlı_Demo-dusen--taslar.vercel.app-303532?style=for-the-badge)](https://dusen-taslar.vercel.app/)
+
+Bu uygulama, bir Chess.com kullanıcısının herkese açık maç geçmişini tarar, oyunlarda yakalanan kendi taşlarını ve kariyer rekorlarını hesaplar, ardından 1080×1350 PNG kariyer posteri oluşturur. Aynı sayım çekirdeği hem Node.js CLI hem de tarayıcı (Web Worker) tarafından kullanılır.
 
 ## Web prototipini çalıştırma
 
